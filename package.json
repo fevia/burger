@@ -11,6 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/fevia/burger.git"
   },
+  "keywords": [
+    "Node.js",
+    "express",
+    "express-handlebars",
+    "body-parser",
+    "MySQL",
+    "method-override"
+  ],
   "author": "Flory Ann Evia",
   "license": "ISC",
   "bugs": {
@@ -18,8 +26,10 @@
   },
   "homepage": "https://github.com/fevia/burger#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
+    "method-override": "^2.3.10",
     "mysql": "^2.18.1"
   }
 }
